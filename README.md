@@ -7,7 +7,17 @@
 
 ## 📁 폴더 구조
 
-traffic_accident_project/ │ ├── data/ │ └── traffic_accidents.csv # 원본 데이터 │ ├── models/ │ ├── lightgbm_tuned.pkl # 최종 예측 모델 (LightGBM) │ ├── label_encoder_most_severe_injury.pkl # 부상도 인코딩용 LabelEncoder │ └── feature_names.pkl # 훈련된 모델 기준 feature 순서 │ ├── ml_utils.py # 모델 평가 및 CLI 예측 함수 └── accident_crush.ipynb # 전체 분석 및 학습 코드
+```
+traffic_accident_project/
+├── data/
+│   └── traffic_accidents.csv                  # 원본 데이터
+├── models/
+│   ├── lightgbm_tuned.pkl                     # 최종 예측 모델 (LightGBM)
+│   ├── label_encoder_most_severe_injury.pkl  # 부상도 인코딩용 LabelEncoder
+│   └── feature_names.pkl                      # 훈련된 모델 기준 feature 순서
+├── ml_utils.py                                # 모델 평가 및 CLI 예측 함수
+└── accident_crush.ipynb                       # 전체 분석 및 학습 코드
+```
 
 ---
 
